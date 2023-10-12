@@ -1,3 +1,9 @@
+
+body{
+    cursor: url("../src/assets/cursor/cursor.cur"), default;
+}
+
+
 .bg-video{
     position: absolute;
     z-index: -2;
