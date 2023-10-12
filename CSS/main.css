@@ -32,6 +32,7 @@
 }
 
 .container__left{
+    display: flex;
     width: 35%;
     min-width: 300px;
     flex-direction: column;
@@ -116,5 +117,13 @@
     height: 11.2rem;
     width: 8rem;
     border: 1px solid #fff;
+}
+
+.card{
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.2);
 }
 
